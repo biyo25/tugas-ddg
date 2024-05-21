@@ -16,13 +16,13 @@
     <div class="content">
         <h1>Ini Halaman Data Buku</h1>
         <?php
-            include_once "koneksi.php";
+            include_once "konneksi.php";
             $data_buku = $koneksi->query(
                 "SELECT * FROM buku3"
             );
         ?>
         <br>
-        <a href="form_data_buku.php">Tambah Data Buku</a>
+        <a href="form_data.php">Tambah Data Buku</a>
 
         <table style="width: 100%;" border="1">
             <tr>

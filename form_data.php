@@ -17,7 +17,7 @@
     <div class="content">
         <h1>Ini Form Data Buku</h1>
 
-        <form action="Handler_buku.php" method="post">
+        <form action="handler.php" method="post">
             <input type="hidden" name="add_buku" value="1">
             <div>
                 <label for="">ID</label>
